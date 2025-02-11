@@ -29,7 +29,6 @@
 			setInterval(checkForChanges, 1000);
 
 			window.addEventListener('message', (event) => {
-        console.log(app, window);
 				if (event.data.type === 'promptWorkflow') {
 					const button = document.getElementById('queue-button');
 					if (button) {
