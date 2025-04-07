@@ -1,4 +1,4 @@
-fs-comfyui-frontend-package==0.1.0
+fs-comfyui-frontend-package==0.2.0
 torch
 torchsde
 torchvision
