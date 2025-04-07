@@ -46,7 +46,7 @@ def check_frontend_version():
         return tuple(map(int, version.split(".")))
 
     try:
-        frontend_version_str = version("comfyui-frontend-package")
+        frontend_version_str = version("fs-comfyui-frontend-package")
         frontend_version = parse_version(frontend_version_str)
         with open(req_path, "r", encoding="utf-8") as f:
             required_frontend = parse_version(f.readline().split("=")[-1])
